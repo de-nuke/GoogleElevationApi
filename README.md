@@ -14,3 +14,11 @@
 
 #### --only_elev
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Output contain only elevation values.
+
+## Required input file format
+
+Input file should contain:
+1. Headers (labels) in the very first line, separated with comma
+2. Headers MUST contain at least "lat" and "lon" at whichever position
+3. One point data per one line
+4. Data line MUST contain lattitude and longtitude value at the same position as "lat" and "lon" headers

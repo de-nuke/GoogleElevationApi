@@ -36,10 +36,17 @@ elevations = []
 
 # Import data from file
 with open(args.input_file) as f:
-    f.readline() # skip first line
+    
+    # Find lattitude and longtitude positons in file
+    line = f.readline()
+    headers = list(line.split(','))
+    lat_idx = headers.index('lat')
+    lng_idx = headers.index('lon')
+
+    # Load locations
     for line in f.readlines():
         line = line.strip(' \n\r\t')
-        lat, lng = line.split(',')[1], line.split(',')[2]
+        lat, lng = line.split(',')[lat_idx], line.split(',')[lng_idx]
         lat, lng = lat.strip(), lng.strip()
         locations.append( (lat,lng) )
 
