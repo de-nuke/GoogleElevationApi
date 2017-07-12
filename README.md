@@ -1,8 +1,8 @@
 ## Example usages:
-#### python elev.py 20170607154138.csv out.csv
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Takes input from 20170607154138.csv and saves the output in out.csv.
-#### python elev.py 20170607154138.csv -
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Takes input from 20170607154138.csv and prints the output to stdout.
+#### python elev.py input.csv output.csv
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Takes input from input.csv and saves the output in output.csv.
+#### python elev.py input.csv -
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Takes input from input.csv and prints the output to stdout.
 
 ## Optional flags:
 
