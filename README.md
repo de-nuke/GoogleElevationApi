@@ -6,6 +6,9 @@
 
 ## Optional flags:
 
+#### -h, --help
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shows help message.
+
 #### --no_status
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOES NOT print how many locations were processed (No option means printing info)
 
