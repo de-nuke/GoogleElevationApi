@@ -22,3 +22,5 @@ Input file should contain:
 2. Headers MUST contain at least "lat" and "lon" at whichever position
 3. One point data per one line
 4. Data line MUST contain lattitude and longtitude value at the same position as "lat" and "lon" headers
+
+Check test.csv or 20170607154138.csv files to see examples
